@@ -1,0 +1,52 @@
+.warper {
+    color: white;
+    height: 1000px;
+}
+.spinWraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.spin {
+    span {
+        color: #7890b2;
+    }
+}
+.img {
+    display: inline-block;
+    cursor: pointer;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input {
+    width: 200px;
+    height: 60px;
+    background-color: #202124;
+    border: 0px;
+    color: white;
+    &::placeholder {
+        color: white;
+    }
+    &:hover {
+        cursor: pointer;
+        border: 0px;
+        background-color: inherit;
+    }
+
+    &:focus {
+        background-color: inherit;
+        border: 1px solid #414144;
+        color: #71717a;
+        &::placeholder {
+            color: gray;
+        }
+    }
+}
+.flexGrow {
+    flex: 1 0 auto;
+    width: 757px;
+}
